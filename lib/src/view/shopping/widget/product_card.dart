@@ -35,15 +35,15 @@ class ProductCard extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             /// Image
-            if (product.productColorList.isNotEmpty)
-              ClipRRect(
-                borderRadius: BorderRadius.circular(16),
-                child: Image.network(
-                  product.productColorList.first.imageUrl,
-                  fit: BoxFit.cover,
-                ),
-              ),
-            const SizedBox(height: 4),
+            // if (product.productColorList.isNotEmpty)
+            //   ClipRRect(
+            //     borderRadius: BorderRadius.circular(16),
+            //     child: Image.network(
+            //       product.productColorList.first.imageUrl,
+            //       fit: BoxFit.cover,
+            //     ),
+            //   ),
+            // const SizedBox(height: 4),
 
             /// Name
             Text(

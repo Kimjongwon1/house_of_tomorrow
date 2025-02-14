@@ -37,7 +37,7 @@ class _ShoppingViewState extends State<ShoppingView> {
         }).where((product) {
           /// 키워드가 비어있는 경우 모두 반환
           if (keyword.isEmpty) return true;
-
+ 
           /// name이나 brand에 키워드 포함 여부 확인
           return "${product.name}${product.brand}"
               .toLowerCase()
